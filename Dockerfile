@@ -28,6 +28,7 @@ RUN apt-get install -y \
 			php5.6-opcache \
 			php5.6-zip \
 			php5.6-dev \
+			php5.6-mcrypt \
 			php5.6-curl
 
 RUN mkdir -p /run/php
